@@ -13,7 +13,7 @@
 
           <q-card-actions align="right">
             <router-link
-            :to="'/${homecard_data.PageRef}'">
+            :to="homecard_data.PageRef">
               <q-btn  v-if="homecard_data.RefType == 'internal'">{{ homecard_data.ButtonText }}</q-btn>
             </router-link>
             <q-btn  v-if="homecard_data.RefType != 'internal'">External</q-btn>
