@@ -4,21 +4,24 @@
         "Description": "Model Integration as a Service! Dynamo allows modelers to leverage HPC to facilitate running models",
         "ButtonText": "Read more on MINT",
         "RefType": "internal",
-        "PageRef": "add reference"
+        "PageRef": "dynamo_page",
+        "BackgroundColor": "bg-primary"
     },
     {
       "Title": "DOLCE Data Management",
       "Description": "Classification, Categorization & Ingest of Data as Metadata at scale",
       "ButtonText": "Explore DOLCE",
       "RefType": "internal",
-      "PageRef": "add reference"
+      "PageRef": "dolce_page",
+      "BackgroundColor": "bg-secondary"
     },
     {
       "Title": "Digital Twins",
       "Description": "Digital Twins are poised to revolutionize simulations. We are researching products and processes of Digital Twins",
       "ButtonText": "More on Digital Twins",
       "RefType": "internal",
-      "PageRef": "add reference"
+      "PageRef": "digital_twins_page",
+      "BackgroundColor": "bg-indigo-11"
     }
 ]
 
