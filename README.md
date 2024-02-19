@@ -1,10 +1,18 @@
-# Sites and Stories (sites-and-stories)
+# REDI Portal
 
-Application for narrative knowledge capture
+Web portal for REDI
 
-## Install the dependencies
+## Run the website locally
+Quasar Framework [QuickStart Instructions](https://quasar.dev/start/quick-start/)
+
+### Prerequisites
+* Node >= 14 (or any newer LTS Node.js version)
+Follow download and isntallation instructions from [NodeJs download site](https://nodejs.org/en/download)
+
+* NPM >=6.14.12 or Yarn >= 1.21.1
+
 ```bash
-yarn
+yarn install
 # or
 npm install
 ```
@@ -14,6 +22,7 @@ npm install
 quasar dev
 ```
 
+## For developers
 
 ### Lint the files
 ```bash
