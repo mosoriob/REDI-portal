@@ -1,5 +1,5 @@
 <template>
-    <q-card class="homepage-card bg-secondary text-white">
+    <q-card class="homepage-card text-white" :class="homecard_data.BackgroundColor">
           <q-card-section>
             <div class="text-h6">{{ homecard_data.Title }}</div>
             <div class="text-subtitle2" >{{ homecard_data.Caption }}</div>
