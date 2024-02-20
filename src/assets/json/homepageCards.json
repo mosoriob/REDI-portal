@@ -1,7 +1,7 @@
  [
     {
         "Title": "Dynamo",
-        "Description": "Model Integration as a Service! Dynamo allows modelers to leverage HPC to facilitate running models",
+        "Description": "Model Integration as a Service! Dynamo is a dynamic modelling modelling platform that allows modelers to leverage HPC to facilitate running models",
         "ButtonText": "Read more on MINT",
         "RefType": "internal",
         "PageRef": "dynamo_page",
