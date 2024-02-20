@@ -9,7 +9,7 @@
     },
     {
       "Title": "DOLCE Data Management",
-      "Description": "Classification, Categorization & Ingest of Data as Metadata at scale",
+      "Description": "Classification, Categorization & Ingest of Data aand Metadata at scale",
       "ButtonText": "Explore DOLCE",
       "RefType": "internal",
       "PageRef": "dolce_page",
@@ -17,7 +17,7 @@
     },
     {
       "Title": "Digital Twins",
-      "Description": "Digital Twins are poised to revolutionize simulations. We are researching products and processes of Digital Twins",
+      "Description": "Digital Twins are poised to revolutionize simulations. The REDI team is developing tools that streamline the creation and orchestration of Digital Twins using physics-based data and models",
       "ButtonText": "More on Digital Twins",
       "RefType": "internal",
       "PageRef": "digital_twins_page",
