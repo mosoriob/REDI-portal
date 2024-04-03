@@ -2,7 +2,7 @@ name: Build and Deploy on push to latest
 on:
   push:
     branches: 
-      - latest
+      - main
 permissions:
   contents: write
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
@@ -27,9 +27,9 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        uses: In-For-Disaster-Analytics/REDI-portal@latest
+        uses: In-For-Disaster-Analytics/REDI-portal@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: latest
+          BASE_BRANCH: main
           BRANCH: gh-pages
           FOLDER: dist/spa
