@@ -6,17 +6,28 @@
           <!-- <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
           </q-avatar> -->
-          <router-link to="/" style="color: white; text-decoration: none ;">
+          <router-link to="/" style="color: white; text-decoration: none">
             <!-- <q-icon name="home" />       -->
             REDI Solutions
           </router-link>
           <!-- <img :src="mainbanner" /> -->
         </q-toolbar-title>
 
-        <q-input dense  v-model="text" label="Search" input-class="text-right" class="q-ml-md" >
+        <q-input
+          dense
+          v-model="text"
+          label="Search"
+          input-class="text-right"
+          class="q-ml-md"
+        >
           <template v-slot:append>
             <q-icon v-if="text === ''" name="search"></q-icon>
-            <q-icon v-else name="clear" class="cursor-pointer" @click="text = ''"></q-icon>
+            <q-icon
+              v-else
+              name="clear"
+              class="cursor-pointer"
+              @click="text = ''"
+            ></q-icon>
           </template>
         </q-input>
       </q-toolbar>
@@ -28,13 +39,16 @@
         <q-route-tab to="/Projects" label="Project Profiles" />
       </q-tabs> -->
 
-      <q-bar style="min-width: 250px;" class="bg-grey text-white rounded-borders">
+      <q-bar
+        style="min-width: 250px"
+        class="bg-grey text-white rounded-borders"
+      >
         <div class="cursor-pointer non-selectable">
           About <q-icon name="expand_more" />
           <q-menu>
             <q-list dense style="min-width: 100px">
               <q-item to="/Philosophy" clickable v-close-popup>
-                <q-item-section >Philosophy</q-item-section>
+                <q-item-section>Philosophy</q-item-section>
               </q-item>
               <q-item to="/ConceptModel" clickable v-close-popup>
                 <q-item-section>Concept Models</q-item-section>
@@ -50,7 +64,7 @@
           <q-menu>
             <q-list dense style="min-width: 100px">
               <q-item clickable>
-                <q-item-section >Integrated Solutions</q-item-section>
+                <q-item-section>Integrated Solutions</q-item-section>
                 <q-item-section side>
                   <q-icon name="keyboard_arrow_right"></q-icon>
                 </q-item-section>
@@ -69,7 +83,7 @@
                   </q-list>
                 </q-menu>
               </q-item>
-              <q-item clickable >
+              <q-item clickable>
                 <q-item-section>Data Ecosystem</q-item-section>
                 <q-item-section side>
                   <q-icon name="keyboard_arrow_right"></q-icon>
@@ -155,13 +169,6 @@
           </q-menu>
         </div>
       </q-bar>
-
-
-
-
-
-
-
     </q-header>
 
     <q-page-container>
@@ -205,9 +212,9 @@ export default defineComponent({
     return {
       mainbanner: "images/alaska-landscape-sm.jpg",
       nsflogo: "images/NSF_Official_logo_High_Res_small.png",
-      tacclogo: "images/TACC-100px.png",
+      tacclogo: "images/TACC-informal-Black-1c-300dpi.png",
       planettexas: "images/100_PT_2050_wordmark_Horiz.png",
-      microsoftazure: "images/azure-100px.png",
+      microsoftazure: "images/microsoft-azure-logo-transparent.jpg",
     };
   },
 });
