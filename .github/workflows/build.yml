@@ -1,8 +1,8 @@
 name: Build and Deploy on push to latest
 on:
   push:
-    branches: 
-      - latest
+    branches:
+      - main
 permissions:
   contents: write
 
