@@ -1,4 +1,4 @@
-import{j as xt,r as w,f as Ct,w as ne,a as x,g as Et,I as Ut,t as Vt,n as ba,o as bn,J as Ot,h as i,T as Yt,l as Fn}from"./index.5a66ddd1.js";/*!
+import{j as xt,r as w,f as Ct,w as ne,a as x,g as Et,I as Ut,t as Vt,n as ba,o as bn,J as Ot,h as i,T as Yt,l as Fn}from"./index.a5c14914.js";/*!
  * @quasar/quasar-ui-qcalendar v4.0.0-beta.16
  * (c) 2023 Jeff Galbraith <jeff@quasar.dev>
  * Released under the MIT License.
