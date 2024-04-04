@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "REDI-portal",
     "paths": {
       "src/*": [
         "src/*"
